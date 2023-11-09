@@ -1,0 +1,53 @@
+body{
+    background-image:url("../img/bg.webp");
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Code', monospace;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+.foto{
+    border: solid;
+    border-radius: 100%;
+    height: 12em;
+    width: 12em;
+    object-fit: cover;
+    object-position: top;
+    border-color: white;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: -9em;
+    display: block;
+    box-shadow: 0em 0em .75em .2em rgb(194, 194, 194);
+
+}
+.zamestnanci{
+    margin-top: 6em;
+}
+.zamestnanci>figure{
+    margin-right: 5em;
+    padding: 3em;
+    background-color: white;
+    width: 20em;
+    display: inline-block;
+    margin-top: 6em;
+    box-shadow: .5em .75em .75em .2em rgb(158, 157, 157);
+}
+.jmeno{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.cara {
+    border: 1px solid black; 
+}
+.informace > div{
+    margin-bottom: .6em;
+}
+.informace{
+    font-size: 1.1rem;
+}
+.ikony{
+    font-family: icomoon;
+    margin-right: 1em;
+}
